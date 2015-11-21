@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\UART_Komunikacija /I..\..\..\workspace\UART_Komunikacija\cmsis_boot /I..\..\..\workspace /I..\..\..\workspace\UART_Komunikacija\cmsis /I..\..\..\workspace\Librarys /I..\..\..">
+      <source file="..\..\..\uartG.h" lastModified="14f3ddff2db">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14f38324e9f">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14f38324ea0">
+      </source>
+      <source file="..\..\..\gpio.h" lastModified="15018199830">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14f38324667">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1501ae20708">
+         <include file="..\..\..\uartG.h"/>
+         <include file="..\..\..\gpio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+      </source>
+      <source file="..\..\..\gpio.c" lastModified="1501ac60e2e">
+         <include file="..\..\..\gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="14f38324aac">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14f3832468f">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14f38324687">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="14f38324e9e">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14f3832a822">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14f38324a61">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

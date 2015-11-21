@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\UART_Komunikacija -I..\..\..\workspace\UART_Komunikacija\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\UART_Komunikacija\cmsis -I..\..\..\workspace\Librarys -I..\..\..">
+      <target file="uartG.o" lastModified="14f42a20799">
+         <source file="..\..\..\..\Librarys\uartG.c" lastModified="14f42a200b3"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14f3c8eeebb">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14f38324687"/>
+      </target>
+      <target file="main.o" lastModified="14f429e8ca1">
+         <source file="..\..\..\main.c" lastModified="14f429d4ea3"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14f3c8eeda2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14f38324667"/>
+      </target>
+   </processor>
+</history>

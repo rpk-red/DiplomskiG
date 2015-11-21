@@ -1,0 +1,397 @@
+Archive member included because of file (symbol)
+
+c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+                              ..\obj\uartG.o (strcasecmp)
+c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+                              c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o) (__ctype_ptr__)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\gpio.o
+ .data          0x00000000        0x0 ..\obj\gpio.o
+ .bss           0x00000000        0x0 ..\obj\gpio.o
+ .text.gpio_read_pin
+                0x00000000       0x40 ..\obj\gpio.o
+ .text.gpio_a_clk_enable
+                0x00000000       0x1c ..\obj\gpio.o
+ .text.gpio_b_clk_enable
+                0x00000000       0x1c ..\obj\gpio.o
+ .text          0x00000000        0x0 ..\obj\uartG.o
+ .data          0x00000000        0x0 ..\obj\uartG.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemInit
+                0x00000000       0x58 ..\obj\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf8 ..\obj\system_stm32f4xx.o
+ .text.SetSysClock
+                0x00000000       0xf4 ..\obj\system_stm32f4xx.o
+ .debug_info    0x00000000      0x592 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x00000000      0x136 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000000       0x30 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x00000000       0x20 ..\obj\system_stm32f4xx.o
+ .debug_line    0x00000000      0x1c2 ..\obj\system_stm32f4xx.o
+ .debug_str     0x00000000      0x3ae ..\obj\system_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\system_stm32f4xx.o
+ .debug_frame   0x00000000       0x7c ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+ .data          0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+ .bss           0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+ .text          0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000      0x98d
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.Default_Reset_Handler
+                0x08000188       0x58 ..\obj\startup_stm32f4xx.o
+                0x08000188                Default_Reset_Handler
+                0x08000188                Reset_Handler
+ .text.Default_Handler
+                0x080001e0        0x8 ..\obj\startup_stm32f4xx.o
+                0x080001e0                RTC_Alarm_IRQHandler
+                0x080001e0                HASH_RNG_IRQHandler
+                0x080001e0                EXTI2_IRQHandler
+                0x080001e0                TIM8_CC_IRQHandler
+                0x080001e0                DebugMon_Handler
+                0x080001e0                TIM1_CC_IRQHandler
+                0x080001e0                DMA2_Stream5_IRQHandler
+                0x080001e0                HardFault_Handler
+                0x080001e0                DMA1_Stream5_IRQHandler
+                0x080001e0                SysTick_Handler
+                0x080001e0                PVD_IRQHandler
+                0x080001e0                SDIO_IRQHandler
+                0x080001e0                TAMP_STAMP_IRQHandler
+                0x080001e0                PendSV_Handler
+                0x080001e0                NMI_Handler
+                0x080001e0                CAN2_RX1_IRQHandler
+                0x080001e0                EXTI3_IRQHandler
+                0x080001e0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001e0                TIM1_UP_TIM10_IRQHandler
+                0x080001e0                TIM8_UP_TIM13_IRQHandler
+                0x080001e0                I2C3_ER_IRQHandler
+                0x080001e0                EXTI0_IRQHandler
+                0x080001e0                I2C2_EV_IRQHandler
+                0x080001e0                DMA1_Stream2_IRQHandler
+                0x080001e0                CAN1_RX0_IRQHandler
+                0x080001e0                FPU_IRQHandler
+                0x080001e0                OTG_HS_WKUP_IRQHandler
+                0x080001e0                UsageFault_Handler
+                0x080001e0                CAN2_SCE_IRQHandler
+                0x080001e0                DMA2_Stream2_IRQHandler
+                0x080001e0                SPI1_IRQHandler
+                0x080001e0                TIM6_DAC_IRQHandler
+                0x080001e0                TIM1_BRK_TIM9_IRQHandler
+                0x080001e0                DCMI_IRQHandler
+                0x080001e0                CAN2_RX0_IRQHandler
+                0x080001e0                DMA2_Stream3_IRQHandler
+                0x080001e0                USART6_IRQHandler
+                0x080001e0                USART3_IRQHandler
+                0x080001e0                CRYP_IRQHandler
+                0x080001e0                CAN1_RX1_IRQHandler
+                0x080001e0                UART5_IRQHandler
+                0x080001e0                DMA2_Stream0_IRQHandler
+                0x080001e0                TIM4_IRQHandler
+                0x080001e0                I2C1_EV_IRQHandler
+                0x080001e0                DMA1_Stream6_IRQHandler
+                0x080001e0                DMA1_Stream1_IRQHandler
+                0x080001e0                UART4_IRQHandler
+                0x080001e0                TIM3_IRQHandler
+                0x080001e0                RCC_IRQHandler
+                0x080001e0                TIM8_BRK_TIM12_IRQHandler
+                0x080001e0                EXTI15_10_IRQHandler
+                0x080001e0                ADC_IRQHandler
+                0x080001e0                DMA1_Stream7_IRQHandler
+                0x080001e0                TIM7_IRQHandler
+                0x080001e0                CAN2_TX_IRQHandler
+                0x080001e0                TIM5_IRQHandler
+                0x080001e0                DMA2_Stream7_IRQHandler
+                0x080001e0                I2C3_EV_IRQHandler
+                0x080001e0                EXTI9_5_IRQHandler
+                0x080001e0                RTC_WKUP_IRQHandler
+                0x080001e0                ETH_WKUP_IRQHandler
+                0x080001e0                SPI2_IRQHandler
+                0x080001e0                OTG_HS_EP1_IN_IRQHandler
+                0x080001e0                MemManage_Handler
+                0x080001e0                DMA1_Stream0_IRQHandler
+                0x080001e0                CAN1_TX_IRQHandler
+                0x080001e0                SVC_Handler
+                0x080001e0                EXTI4_IRQHandler
+                0x080001e0                FSMC_IRQHandler
+                0x080001e0                ETH_IRQHandler
+                0x080001e0                OTG_HS_EP1_OUT_IRQHandler
+                0x080001e0                WWDG_IRQHandler
+                0x080001e0                TIM2_IRQHandler
+                0x080001e0                OTG_FS_WKUP_IRQHandler
+                0x080001e0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001e0                OTG_HS_IRQHandler
+                0x080001e0                EXTI1_IRQHandler
+                0x080001e0                I2C2_ER_IRQHandler
+                0x080001e0                DMA2_Stream1_IRQHandler
+                0x080001e0                CAN1_SCE_IRQHandler
+                0x080001e0                FLASH_IRQHandler
+                0x080001e0                DMA2_Stream4_IRQHandler
+                0x080001e0                BusFault_Handler
+                0x080001e0                USART1_IRQHandler
+                0x080001e0                OTG_FS_IRQHandler
+                0x080001e0                SPI3_IRQHandler
+                0x080001e0                DMA1_Stream4_IRQHandler
+                0x080001e0                I2C1_ER_IRQHandler
+                0x080001e0                DMA2_Stream6_IRQHandler
+                0x080001e0                DMA1_Stream3_IRQHandler
+ .text.main     0x080001e8       0x90 ..\obj\main.o
+                0x080001e8                main
+ .text.gpio_init_port
+                0x08000278      0x10c ..\obj\gpio.o
+                0x08000278                gpio_init_port
+ .text.gpio_set_pin
+                0x08000384       0x28 ..\obj\gpio.o
+                0x08000384                gpio_set_pin
+ .text.gpio_clear_pin
+                0x080003ac       0x28 ..\obj\gpio.o
+                0x080003ac                gpio_clear_pin
+ .text.gpio_toggle_pin
+                0x080003d4       0x54 ..\obj\gpio.o
+                0x080003d4                gpio_toggle_pin
+ .text.gpio_d_clk_enable
+                0x08000428       0x1c ..\obj\gpio.o
+                0x08000428                gpio_d_clk_enable
+ .text.NVIC_EnableIRQ
+                0x08000444       0x30 ..\obj\uartG.o
+ .text.InitUart
+                0x08000474       0x90 ..\obj\uartG.o
+                0x08000474                InitUart
+ .text.SendChar
+                0x08000504       0x38 ..\obj\uartG.o
+                0x08000504                SendChar
+ .text.SendString
+                0x0800053c       0x28 ..\obj\uartG.o
+                0x0800053c                SendString
+ .text.ClearUSART2Buffer
+                0x08000564       0x28 ..\obj\uartG.o
+                0x08000564                ClearUSART2Buffer
+ .text.USART2_IRQHandler
+                0x0800058c       0xb0 ..\obj\uartG.o
+                0x0800058c                USART2_IRQHandler
+ .text.AnalyzeRecivedData
+                0x0800063c      0x15c ..\obj\uartG.o
+                0x0800063c                AnalyzeRecivedData
+ .text.strcasecmp
+                0x08000798       0x44 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+                0x08000798                strcasecmp
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x080007dc        0xc ..\obj\main.o
+ .rodata        0x080007e8       0xa4 ..\obj\uartG.o
+ .rodata._ctype_
+                0x0800088c      0x101 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+                0x0800088c                _ctype_
+ *(.eh_fram e*)
+
+.glue_7         0x08000990        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08000990        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08000990        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000990        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08000990        0x0
+ .iplt          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.rel.dyn        0x08000990        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000990                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000990                __exidx_end = .
+                0x08000990                __etext = .
+                0x0800098d                _sidata = __etext
+
+.data           0x20000000        0x4 load address 0x0800098d
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data.__ctype_ptr__
+                0x20000000        0x4 c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+                0x20000000                __ctype_ptr__
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000004                PROVIDE (__preinit_array_end, .)
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000004                PROVIDE (__init_array_end, .)
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x20000004                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __data_end__ = .
+                0x20000004                _edata = __data_end__
+
+.igot.plt       0x20000004        0x0 load address 0x08000994
+ .igot.plt      0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.bss            0x20000004       0x68 load address 0x08000994
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __bss_start__ = .
+                0x20000004                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000004       0x68 ..\obj\uartG.o
+                0x20000008                InputBufferUSART2
+ *(COMMON)
+                0x2000006c                . = ALIGN (0x4)
+                0x2000006c                __bss_end__ = .
+                0x2000006c                _ebss = __bss_end__
+
+.heap           0x2000006c        0x0
+                0x2000006c                __end__ = .
+                0x2000006c                _end = __end__
+                0x2000006c                end = __end__
+ *(.heap*)
+                0x2000006c                __HeapLimit = .
+
+.co_stack       0x2000006c      0x804 load address 0x080009fc
+                0x20000070                . = ALIGN (0x8)
+ *fill*         0x2000006c        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000070      0x800 ..\obj\startup_stm32f4xx.o
+                0x20000070                pulStack
+                0x20020000                __StackTop = (ORIGIN (ram) + 0x20000)
+                0x2001f7fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20020000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\main.o
+LOAD ..\obj\gpio.o
+LOAD ..\obj\uartG.o
+LOAD ..\obj\system_stm32f4xx.o
+START GROUP
+LOAD c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a
+LOAD c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a
+END GROUP
+OUTPUT(UART_Komunikacija.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x10b8
+ .debug_info    0x00000000       0xed ..\obj\startup_stm32f4xx.o
+ .debug_info    0x000000ed      0x224 ..\obj\main.o
+ .debug_info    0x00000311      0x4ed ..\obj\gpio.o
+ .debug_info    0x000007fe      0x8ba ..\obj\uartG.o
+
+.debug_abbrev   0x00000000      0x4b1
+ .debug_abbrev  0x00000000       0xb0 ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x000000b0      0x105 ..\obj\main.o
+ .debug_abbrev  0x000001b5      0x137 ..\obj\gpio.o
+ .debug_abbrev  0x000002ec      0x1c5 ..\obj\uartG.o
+
+.debug_aranges  0x00000000       0xf0
+ .debug_aranges
+                0x00000000       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000028       0x20 ..\obj\main.o
+ .debug_aranges
+                0x00000048       0x58 ..\obj\gpio.o
+ .debug_aranges
+                0x000000a0       0x50 ..\obj\uartG.o
+
+.debug_ranges   0x00000000       0xb0
+ .debug_ranges  0x00000000       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000018       0x10 ..\obj\main.o
+ .debug_ranges  0x00000028       0x48 ..\obj\gpio.o
+ .debug_ranges  0x00000070       0x40 ..\obj\uartG.o
+
+.debug_line     0x00000000      0x680
+ .debug_line    0x00000000       0xa5 ..\obj\startup_stm32f4xx.o
+ .debug_line    0x000000a5      0x188 ..\obj\main.o
+ .debug_line    0x0000022d      0x229 ..\obj\gpio.o
+ .debug_line    0x00000456      0x22a ..\obj\uartG.o
+
+.debug_str      0x00000000      0xa7d
+ .debug_str     0x00000000      0x139 ..\obj\startup_stm32f4xx.o
+                                0x14b (size before relaxing)
+ .debug_str     0x00000139      0x147 ..\obj\main.o
+                                0x222 (size before relaxing)
+ .debug_str     0x00000280      0x1cf ..\obj\gpio.o
+                                0x3a6 (size before relaxing)
+ .debug_str     0x0000044f      0x62e ..\obj\uartG.o
+                                0x8d8 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\startup_stm32f4xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\gpio.o
+ .comment       0x00000000       0x71 ..\obj\uartG.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\gpio.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\uartG.o
+ .ARM.attributes
+                0x000000cc       0x2e c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)
+ .ARM.attributes
+                0x000000fa       0x2e c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-ctype_.o)
+
+.debug_frame    0x00000000      0x2e4
+ .debug_frame   0x00000000       0x4c ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x0000004c       0x30 ..\obj\main.o
+ .debug_frame   0x0000007c      0x138 ..\obj\gpio.o
+ .debug_frame   0x000001b4      0x104 ..\obj\uartG.o
+ .debug_frame   0x000002b8       0x2c c:/coocox/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcasecmp.o)

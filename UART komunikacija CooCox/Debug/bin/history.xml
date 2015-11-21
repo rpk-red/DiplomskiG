@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=UART_Komunikacija.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\UART_Komunikacija -TC:\CooCox\CoIDE\configuration\ProgramData\UART_Komunikacija/arm-gcc-link.ld -g">
+      <target file="UART_Komunikacija.elf" lastModified="14f42a20a09">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14f3c8eeda2"/>
+         <source file="..\obj\main.o" lastModified="14f429e8ca1"/>
+         <source file="..\obj\uartG.o" lastModified="14f42a20799"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14f3c8eeebb"/>
+      </target>
+   </processor>
+</history>
