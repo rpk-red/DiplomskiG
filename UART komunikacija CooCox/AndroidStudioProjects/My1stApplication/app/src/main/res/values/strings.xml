@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">My 1st Application</string>
-    <string name="action_settings">Settings</string>
-    <string name="btnPair">Pair</string>
-    <string name="btn_napred">Napred</string>
-    <string name="btn_nazad">NAZAD</string>
-    <string name="btn_levo">LEVO</string>
-    <string name="btn_desno">DESNO</string>
-</resources>
